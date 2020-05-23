@@ -4,6 +4,8 @@ import speedtest
 
 import ping
 
+print('Start monitoring connection')
+
 s = speedtest.Speedtest()
 
 while True:
